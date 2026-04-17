@@ -1,13 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: 'export', // Diz ao Next para gerar arquivos estáticos
+  basePath: '/contrucoes_metalicas',
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
-      },
-    ],
+    unoptimized: true, // Obrigatório para o GitHub Pages aceitar o next/image
   },
 };
 

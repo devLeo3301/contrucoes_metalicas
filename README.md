@@ -7,7 +7,7 @@
 
 Uma solução digital sofisticada desenvolvida para empresas de engenharia e construções metálicas de alto padrão. O projeto foca em uma experiência de usuário (UX) industrial, transmitindo solidez, precisão e modernidade.
 
-[✨ Demonstração ao Vivo](https://seu-link-da-vercel.app) | [📂 Reportar Bug](https://github.com/seu-usuario/seu-projeto/issues)
+[✨ Demonstração ao Vivo](https://seu-link-da-vercel.app) | [📂 Reportar Bug](https://github.com/devLeo3301/contrucoes_metalicas/issues)
 
 ---
 
