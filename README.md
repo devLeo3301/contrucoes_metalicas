@@ -7,7 +7,7 @@
 
 Uma solução digital sofisticada desenvolvida para empresas de engenharia e construções metálicas de alto padrão. O projeto foca em uma experiência de usuário (UX) industrial, transmitindo solidez, precisão e modernidade.
 
-[✨ Demonstração ao Vivo](https://seu-link-da-vercel.app) | [📂 Reportar Bug](https://github.com/devLeo3301/contrucoes_metalicas/issues)
+[✨ Demonstração ao Vivo](https://devleo3301.github.io/contrucoes_metalicas/) | [📂 Reportar Bug](https://github.com/devLeo3301/contrucoes_metalicas/issues)
 
 ---
 
@@ -57,4 +57,4 @@ Este projeto utiliza o estado da arte do ecossistema React:
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/nome-do-projeto.git](https://github.com/seu-usuario/nome-do-projeto.git)
+   git clone [https://github.com/devLeo3301/contrucoes_metalicas.git](https://github.com/devLeo3301/contrucoes_metalicas.git)
