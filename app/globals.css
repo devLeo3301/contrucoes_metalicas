@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Ajustei o fundo do dark mode sutilmente para combinar com a identidade */
+    --background: #0F172A; 
+    --foreground: #ededed;
+  }
+}
+
+@theme inline {
+  /* Variáveis Padrão do Next.js */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Cores Exclusivas da DIASTRU */
+  --color-diastru-blue: #1D438A;
+  --color-diastru-orange: #F28C38;
+  --color-diastru-dark: #0F172A;
+
+  /* Animação do botão (Shimmer) */
+  --animate-shimmer: shimmer 1.5s infinite;
+}
+
+/* Keyframe da animação Shimmer */
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  /* Utilizando a fonte Geist do Next.js como principal */
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  /* Garante rolagem suave no site inteiro */
+  scroll-behavior: smooth; 
+}
